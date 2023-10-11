@@ -1,8 +1,8 @@
-           IDENTIFICATION DIVISION.                                     
+       IDENTIFICATION DIVISION.
            PROGRAM-ID. "hello".
-           ENVIRONMENT DIVISION.
-           DATA DIVISION.
-           WORKING-STORAGE SECTION.
+       ENVIRONMENT DIVISION.
+       DATA DIVISION.
+        WORKING-STORAGE SECTION.
       *    PIC 9 numeric value one number PIC 9(4) = 4 digits
       *    PIC A alphabetic up to 256 letters
       *    PIC x letters + numbers 18 length
@@ -12,7 +12,7 @@
          01  NUMBER_ONE PIC 9(4) VALUE 200.
          01  MY_DECIMAL PIC 9(4)V999 VALUE 0.534.
          01  SOLUTION PIC 9(4).
-           PROCEDURE DIVISION.
+       PROCEDURE DIVISION.
            DISPLAY "Hello".
            MOVE 'JULIUS' TO MY_NAME.
            DISPLAY MY_NAME.
